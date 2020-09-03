@@ -11,6 +11,6 @@ Sistema Java responsável pelo controle de estoque dos produtos de uma loja de I
 Esse projeto utiliza as seguintes ferramentas:
 
 - [MySQL](https://www.mysql.com/)
-- [Java](https://expressjs.com/)
+- [Java](https://www.java.com/en/)
 - [Java Swing](https://www.eclipse.org/windowbuilder/)
 
