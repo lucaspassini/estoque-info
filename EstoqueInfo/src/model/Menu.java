@@ -19,22 +19,26 @@ import javax.swing.JRadioButtonMenuItem;
 
 import com.sun.glass.events.KeyEvent;
 import com.sun.glass.events.WindowEvent;
+import java.awt.Toolkit;
+import java.awt.Font;
 
-public class SwingMenu {
+public class Menu {
 	private JFrame mainFrame;
 	   private JLabel headerLabel;
 	   private JLabel statusLabel;
 	   private JPanel controlPanel; 
 
-	   public SwingMenu(){
+	   public Menu(){
 	      prepareGUI();
 	   }
 	   public static void main(String[] args){
-	      SwingMenu  swingMenu = new SwingMenu();     
-	      swingMenu.showMenu();
+	      Menu  menu = new Menu();     
+	      menu.showMenu();
 	   }
 	   private void prepareGUI(){
 	      mainFrame = new JFrame("EstoqueInfo");
+	      mainFrame.setFont(null);
+	      mainFrame.setIconImage(Toolkit.getDefaultToolkit().getImage(Menu.class.getResource("/icons/icons8-services-50.png")));
 	      mainFrame.setSize(946,757);
 	      mainFrame.getContentPane().setLayout(new GridLayout(3, 1));
 
@@ -58,22 +62,30 @@ public class SwingMenu {
 	   private void showMenu(){
 	      //create a menu bar
 	      final JMenuBar menuBar = new JMenuBar();
+	      menuBar.setFont(new Font("Fira Code", menuBar.getFont().getStyle(), 12));
 
 	      //create menus
 	      JMenu fileMenu = new JMenu("Cadastros");
+	      fileMenu.setFont(new Font("Fira Code Retina", fileMenu.getFont().getStyle(), 12));
 	      JMenu editMenu = new JMenu("Compras"); 
+	      editMenu.setFont(new Font("Fira Code Retina", editMenu.getFont().getStyle(), 12));
 	      final JMenu aboutMenu = new JMenu("Vendas");
+	      aboutMenu.setFont(new Font("Fira Code Retina", aboutMenu.getFont().getStyle(), aboutMenu.getFont().getSize()));
 	      final JMenu linkMenu = new JMenu("Sair");
+	      linkMenu.setFont(new Font("Fira Code Retina", linkMenu.getFont().getStyle(), linkMenu.getFont().getSize()));
 	     
 	      //create menu items
 	      JMenuItem newMenuItem = new JMenuItem("Clientes");
+	      newMenuItem.setFont(new Font("Fira Code", newMenuItem.getFont().getStyle(), newMenuItem.getFont().getSize()));
 	      newMenuItem.setMnemonic(KeyEvent.VK_N);
 	      newMenuItem.setActionCommand("Clientes");
 
 	      JMenuItem openMenuItem = new JMenuItem("Fornecedores");
+	      openMenuItem.setFont(new Font("Fira Code", openMenuItem.getFont().getStyle(), openMenuItem.getFont().getSize()));
 	      openMenuItem.setActionCommand("Fornecedores");
 
 	      JMenuItem saveMenuItem = new JMenuItem("Produto");
+	      saveMenuItem.setFont(new Font("Fira Code", saveMenuItem.getFont().getStyle(), saveMenuItem.getFont().getSize()));
 	      saveMenuItem.setActionCommand("Produto");
 
 	      
