@@ -1,6 +1,18 @@
 package model;
 
+import java.util.Date;
+
 public class Estoque {
-  int codProduto;
-  double saldoProduto;
+  private int codProduto;
+  private double saldoProduto;
+  
+  
+
+  public double getsaldoProduto() { 
+	  return saldoProduto;
+  }
+  public void setsaldoProduto(double saldoProduto) {
+	  this.saldoProduto = saldoProduto;
+  }
+
 }
