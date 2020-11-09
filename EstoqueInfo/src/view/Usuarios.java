@@ -1,4 +1,4 @@
-package model;
+package view;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -13,7 +13,7 @@ import java.awt.SystemColor;
 import java.awt.Toolkit;
 import java.awt.Font;
 
-public class Produtos extends JFrame {
+public class Usuarios extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -27,7 +27,7 @@ public class Produtos extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Produtos frame = new Produtos();
+					Usuarios frame = new Usuarios();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -39,9 +39,9 @@ public class Produtos extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Produtos() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Produtos.class.getResource("/icons/icons8-services-50.png")));
-		setTitle("Cadastro de Produtos");
+	public Usuarios() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Usuarios.class.getResource("/icons/icons8-services-50.png")));
+		setTitle("Cadastro de Usu\u00E1rio");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -51,53 +51,53 @@ public class Produtos extends JFrame {
 		contentPane.setLayout(null);
 		
 		JTextPane txtpnCdigo = new JTextPane();
-		txtpnCdigo.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
 		txtpnCdigo.setEditable(false);
+		txtpnCdigo.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
 		txtpnCdigo.setBackground(SystemColor.inactiveCaptionBorder);
 		txtpnCdigo.setText("C\u00F3digo");
-		txtpnCdigo.setBounds(34, 35, 49, 20);
+		txtpnCdigo.setBounds(37, 45, 54, 20);
 		contentPane.add(txtpnCdigo);
 		
 		JTextPane txtpnNome = new JTextPane();
-		txtpnNome.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
 		txtpnNome.setEditable(false);
+		txtpnNome.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
 		txtpnNome.setBackground(SystemColor.inactiveCaptionBorder);
 		txtpnNome.setText("Nome");
-		txtpnNome.setBounds(34, 80, 40, 20);
+		txtpnNome.setBounds(37, 94, 54, 20);
 		contentPane.add(txtpnNome);
 		
-		JTextPane txtpnDataDoCadastro = new JTextPane();
-		txtpnDataDoCadastro.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnDataDoCadastro.setEditable(false);
-		txtpnDataDoCadastro.setBackground(SystemColor.inactiveCaptionBorder);
-		txtpnDataDoCadastro.setText("Data do Cadastro");
-		txtpnDataDoCadastro.setBounds(34, 136, 131, 20);
-		contentPane.add(txtpnDataDoCadastro);
-		
 		JButton btnNewButton = new JButton("Salvar");
-		btnNewButton.setFont(new Font("Fira Code SemiBold", btnNewButton.getFont().getStyle(), 11));
+		btnNewButton.setFont(new Font("Fira Code SemiBold", btnNewButton.getFont().getStyle(), btnNewButton.getFont().getSize()));
 		btnNewButton.setBounds(29, 202, 89, 23);
 		contentPane.add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("Sair");
-		btnNewButton_1.setFont(new Font("Fira Code SemiBold", btnNewButton.getFont().getStyle(), 11));
+		btnNewButton_1.setFont(new Font("Fira Code SemiBold", btnNewButton.getFont().getStyle(), btnNewButton.getFont().getSize()));
 		btnNewButton_1.setBounds(289, 202, 89, 23);
 		contentPane.add(btnNewButton_1);
 		
 		textField = new JTextField();
-		textField.setBounds(175, 35, 86, 20);
+		textField.setBounds(101, 45, 86, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		textField_1 = new JTextField();
-		textField_1.setBounds(175, 80, 86, 20);
+		textField_1.setBounds(101, 94, 86, 20);
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		
+		JTextPane txtpnSenha = new JTextPane();
+		txtpnSenha.setEditable(false);
+		txtpnSenha.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
+		txtpnSenha.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnSenha.setText("Senha");
+		txtpnSenha.setBounds(37, 137, 54, 20);
+		contentPane.add(txtpnSenha);
+		
 		textField_2 = new JTextField();
-		textField_2.setBounds(175, 136, 86, 20);
-		contentPane.add(textField_2);
 		textField_2.setColumns(10);
+		textField_2.setBounds(101, 137, 86, 20);
+		contentPane.add(textField_2);
 	}
 
 }
