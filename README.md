@@ -38,3 +38,8 @@ Esse projeto utiliza as seguintes ferramentas:
 - [Java Docs](https://docs.oracle.com/en/java/javase/14/)
 - [Java Swing Docs](https://www.eclipse.org/documentation/)
 
+
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
