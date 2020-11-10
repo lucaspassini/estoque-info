@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="EstoqueInfo/src/icons/icons8-services-50.png"/>
+  <img src="EstoqueInfo/src/icons/icons8-empty-box-60.png"/>
 </p>
 
 
@@ -12,7 +12,7 @@
 
 ## 🖼 Telas
 
-![tela-login](https://user-images.githubusercontent.com/47937044/98611659-1a51a680-22d1-11eb-9bb4-af0f7ad5f00d.png)
+![tela-login](https://user-images.githubusercontent.com/47937044/98645143-4e988780-2310-11eb-9714-35884fed3f0c.png)
 <br></br>
  
 
