@@ -5,8 +5,11 @@
 
 
 
-<h1 align="center">EstoqueInfo</h1>
+<h1 align="center">EstoqueInfo <br/>
+ <img src="https://img.shields.io/github/license/lucaspassini/EstoqueInfo?style=flat&logo">
+</h1>
 <br/>
+
 
 ## :pushpin: Sobre o projeto
 Sistema Java responsável pelo controle de estoque dos produtos de uma loja de Informática.
