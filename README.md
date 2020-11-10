@@ -5,7 +5,7 @@
 
 
 
-<h3 align="center">EstoqueInfo <br/>
+<h3 align="center">EstoqueInfo <br/> <br/>
  <img src="https://img.shields.io/github/license/lucaspassini/EstoqueInfo?style=flat&logo">
 </h3>
 
