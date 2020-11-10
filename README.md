@@ -1,4 +1,12 @@
+<p align="center">
+  <img src="EstoqueInfo/src/icons/icons8-services-50.png"/>
+</p>
+
+
+
+
 <h1 align="center">EstoqueInfo</h1>
+<br/>
 
 ## :pushpin: Sobre o projeto
 Sistema Java responsável pelo controle de estoque dos produtos de uma loja de Informática.
