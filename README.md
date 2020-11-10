@@ -1,4 +1,21 @@
-<h1 align="center">EstoqueInfo</h1>
+<p align="center">
+  <img src="EstoqueInfo/src/icons/icons8-services-50.png"/>
+</p>
+
+
+
+
+<h3 align="center">EstoqueInfo <br/> <br/>
+ <img src="https://img.shields.io/github/license/lucaspassini/EstoqueInfo?style=flat&logo">
+</h3>
+
+
+## 🖼 Telas
+
+![tela-login](https://user-images.githubusercontent.com/47937044/98611659-1a51a680-22d1-11eb-9bb4-af0f7ad5f00d.png)
+<br></br>
+ 
+
 
 ## :pushpin: Sobre o projeto
 Sistema Java responsável pelo controle de estoque dos produtos de uma loja de Informática.
@@ -21,3 +38,8 @@ Esse projeto utiliza as seguintes ferramentas:
 - [Java Docs](https://docs.oracle.com/en/java/javase/14/)
 - [Java Swing Docs](https://www.eclipse.org/documentation/)
 
+
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
