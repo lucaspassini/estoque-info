@@ -38,7 +38,7 @@ public class Menu {
 	   private void prepareGUI(){
 	      mainFrame = new JFrame("EstoqueInfo");
 	      mainFrame.setFont(null);
-	      mainFrame.setIconImage(Toolkit.getDefaultToolkit().getImage(Menu.class.getResource("/icons/icons8-services-50.png")));
+	      mainFrame.setIconImage(Toolkit.getDefaultToolkit().getImage(Menu.class.getResource("/icons/icons8-empty-box-30.png")));
 	      mainFrame.setSize(946,757);
 	      mainFrame.getContentPane().setLayout(new GridLayout(3, 1));
 

@@ -183,8 +183,8 @@ public class Login extends JFrame {
 		panel_2.add(lblIconLogin);
 		
 		lblIconGear = new JLabel("");
-		lblIconGear.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-services-50.png")));
-		lblIconGear.setBounds(205, 41, 65, 78);
+		lblIconGear.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-empty-box-60.png")));
+		lblIconGear.setBounds(201, 41, 65, 78);
 		contentPane.add(lblIconGear);
 		
 		lblIconX = new JLabel("X");
