@@ -49,7 +49,7 @@ public class Clientes extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
-		contentPane.setBackground(SystemColor.inactiveCaptionBorder);
+		contentPane.setBackground(SystemColor.control);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -57,7 +57,7 @@ public class Clientes extends JFrame {
 		JTextPane txtpnCdiho = new JTextPane();
 		txtpnCdiho.setEditable(false);
 		txtpnCdiho.setFont(new Font("Fira Code", txtpnCdiho.getFont().getStyle(), txtpnCdiho.getFont().getSize()));
-		txtpnCdiho.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnCdiho.setBackground(SystemColor.control);
 		txtpnCdiho.setBounds(5, 26, 50, 20);
 		txtpnCdiho.setText("C\u00F3digo");
 		contentPane.add(txtpnCdiho);
@@ -65,7 +65,7 @@ public class Clientes extends JFrame {
 		JTextPane txtpnNome = new JTextPane();
 		txtpnNome.setEditable(false);
 		txtpnNome.setFont(new Font("Fira Code", txtpnCdiho.getFont().getStyle(), txtpnCdiho.getFont().getSize()));
-		txtpnNome.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnNome.setBackground(SystemColor.control);
 		txtpnNome.setText("Nome");
 		txtpnNome.setBounds(5, 66, 40, 20);
 		contentPane.add(txtpnNome);
@@ -73,7 +73,7 @@ public class Clientes extends JFrame {
 		JTextPane txtpnCnpj = new JTextPane();
 		txtpnCnpj.setEditable(false);
 		txtpnCnpj.setFont(new Font("Fira Code", txtpnCdiho.getFont().getStyle(), txtpnCdiho.getFont().getSize()));
-		txtpnCnpj.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnCnpj.setBackground(SystemColor.control);
 		txtpnCnpj.setText("CNPJ");
 		txtpnCnpj.setBounds(5, 104, 35, 20);
 		contentPane.add(txtpnCnpj);
@@ -81,7 +81,7 @@ public class Clientes extends JFrame {
 		JTextPane txtpnValor = new JTextPane();
 		txtpnValor.setEditable(false);
 		txtpnValor.setFont(new Font("Fira Code", txtpnCdiho.getFont().getStyle(), txtpnCdiho.getFont().getSize()));
-		txtpnValor.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnValor.setBackground(SystemColor.control);
 		txtpnValor.setText("Valor em Aberto");
 		txtpnValor.setBounds(201, 26, 116, 20);
 		contentPane.add(txtpnValor);
@@ -89,7 +89,7 @@ public class Clientes extends JFrame {
 		JTextPane txtpnData = new JTextPane();
 		txtpnData.setEditable(false);
 		txtpnData.setFont(new Font("Fira Code", txtpnCdiho.getFont().getStyle(), txtpnCdiho.getFont().getSize()));
-		txtpnData.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnData.setBackground(SystemColor.control);
 		txtpnData.setText("Data do Cadastro");
 		txtpnData.setBounds(201, 57, 126, 20);
 		contentPane.add(txtpnData);

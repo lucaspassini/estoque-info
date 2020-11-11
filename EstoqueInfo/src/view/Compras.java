@@ -47,7 +47,7 @@ public class Compras extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
-		contentPane.setBackground(SystemColor.inactiveCaptionBorder);
+		contentPane.setBackground(SystemColor.control);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -55,7 +55,7 @@ public class Compras extends JFrame {
 		JTextPane txtpnCdigo = new JTextPane();
 		txtpnCdigo.setEditable(false);
 		txtpnCdigo.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnCdigo.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnCdigo.setBackground(SystemColor.control);
 		txtpnCdigo.setText("C\u00F3digo");
 		txtpnCdigo.setBounds(12, 26, 49, 20);
 		contentPane.add(txtpnCdigo);
@@ -63,7 +63,7 @@ public class Compras extends JFrame {
 		JTextPane txtpnCdigoDoProduto = new JTextPane();
 		txtpnCdigoDoProduto.setEditable(false);
 		txtpnCdigoDoProduto.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnCdigoDoProduto.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnCdigoDoProduto.setBackground(SystemColor.control);
 		txtpnCdigoDoProduto.setText("C\u00F3digo do Produto");
 		txtpnCdigoDoProduto.setBounds(12, 67, 140, 20);
 		contentPane.add(txtpnCdigoDoProduto);
@@ -71,7 +71,7 @@ public class Compras extends JFrame {
 		JTextPane txtpnDataDaCompra = new JTextPane();
 		txtpnDataDaCompra.setEditable(false);
 		txtpnDataDaCompra.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnDataDaCompra.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnDataDaCompra.setBackground(SystemColor.control);
 		txtpnDataDaCompra.setText("Data da Compra");
 		txtpnDataDaCompra.setBounds(12, 108, 106, 20);
 		contentPane.add(txtpnDataDaCompra);
@@ -79,7 +79,7 @@ public class Compras extends JFrame {
 		JTextPane txtpnQuantidade = new JTextPane();
 		txtpnQuantidade.setEditable(false);
 		txtpnQuantidade.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnQuantidade.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnQuantidade.setBackground(SystemColor.control);
 		txtpnQuantidade.setText("Quantidade ");
 		txtpnQuantidade.setBounds(258, 26, 80, 20);
 		contentPane.add(txtpnQuantidade);
@@ -87,7 +87,7 @@ public class Compras extends JFrame {
 		JTextPane txtpnTotal = new JTextPane();
 		txtpnTotal.setEditable(false);
 		txtpnTotal.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnTotal.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnTotal.setBackground(SystemColor.control);
 		txtpnTotal.setText("Total");
 		txtpnTotal.setBounds(258, 67, 49, 20);
 		contentPane.add(txtpnTotal);

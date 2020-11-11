@@ -59,12 +59,12 @@ public class Login extends JFrame {
 	 * Create the frame.
 	 */
 	public Login() {
-		setTitle("EstoqueInfo");
+		setTitle("Login - EstoqueInfo");
 		setFont(null);
 		setUndecorated(true);
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/icons/icons8-services-50.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/icons/icons8-empty-box-30.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 510, 440);
 		contentPane = new JPanel();
 		contentPane.setAlignmentX(Component.LEFT_ALIGNMENT);
 		contentPane.setBackground(SystemColor.control);
@@ -75,7 +75,7 @@ public class Login extends JFrame {
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.WHITE);
 		panel.setBorder(new CompoundBorder());
-		panel.setBounds(112, 130, 225, 30);
+		panel.setBounds(142, 220, 225, 30);
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
@@ -112,7 +112,7 @@ public class Login extends JFrame {
 		JPanel panel_1 = new JPanel();
 		panel_1.setBackground(Color.WHITE);
 		panel_1.setBorder(new CompoundBorder());
-		panel_1.setBounds(112, 166, 225, 30);
+		panel_1.setBounds(142, 263, 225, 30);
 		contentPane.add(panel_1);
 		panel_1.setLayout(null);
 		
@@ -167,14 +167,14 @@ public class Login extends JFrame {
 		);
 		panel_2.setBorder(new CompoundBorder());
 		panel_2.setBackground(Color.GRAY);
-		panel_2.setBounds(112, 226, 225, 43);
+		panel_2.setBounds(142, 324, 225, 43);
 		contentPane.add(panel_2);
 		panel_2.setLayout(null);
 		
-		JLabel lblLogin = new JLabel("Login");
+		JLabel lblLogin = new JLabel("LOGIN");
 		lblLogin.setForeground(Color.WHITE);
-		lblLogin.setFont(new Font("Fira Code Medium", lblLogin.getFont().getStyle(), 13));
-		lblLogin.setBounds(99, 13, 40, 21);
+		lblLogin.setFont(new Font("Fira Code SemiBold", lblLogin.getFont().getStyle(), 13));
+		lblLogin.setBounds(99, 13, 55, 21);
 		panel_2.add(lblLogin);
 		
 		lblIconLogin = new JLabel("");
@@ -183,8 +183,8 @@ public class Login extends JFrame {
 		panel_2.add(lblIconLogin);
 		
 		lblIconGear = new JLabel("");
-		lblIconGear.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-empty-box-60.png")));
-		lblIconGear.setBounds(201, 41, 65, 78);
+		lblIconGear.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-empty-box-90.png")));
+		lblIconGear.setBounds(216, 82, 95, 78);
 		contentPane.add(lblIconGear);
 		
 		lblIconX = new JLabel("X");
@@ -209,12 +209,12 @@ public class Login extends JFrame {
 		});
 		lblIconX.setForeground(Color.BLACK);
 		lblIconX.setIcon(null);
-		lblIconX.setBounds(420, 0, 30, 43);
+		lblIconX.setBounds(477, 0, 30, 43);
 		contentPane.add(lblIconX);
 		
 		lblIconSignup = new JLabel("");
 		lblIconSignup.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-add-user-male-24.png")));
-		lblIconSignup.setBounds(382, 240, 30, 22);
+		lblIconSignup.setBounds(430, 345, 30, 22);
 		contentPane.add(lblIconSignup);
 		
 		lblLoginMessage = new JLabel("");

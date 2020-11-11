@@ -45,7 +45,7 @@ public class Usuarios extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
-		contentPane.setBackground(SystemColor.inactiveCaptionBorder);
+		contentPane.setBackground(SystemColor.control);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -53,7 +53,7 @@ public class Usuarios extends JFrame {
 		JTextPane txtpnCdigo = new JTextPane();
 		txtpnCdigo.setEditable(false);
 		txtpnCdigo.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnCdigo.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnCdigo.setBackground(SystemColor.control);
 		txtpnCdigo.setText("C\u00F3digo");
 		txtpnCdigo.setBounds(37, 45, 54, 20);
 		contentPane.add(txtpnCdigo);
@@ -61,7 +61,7 @@ public class Usuarios extends JFrame {
 		JTextPane txtpnNome = new JTextPane();
 		txtpnNome.setEditable(false);
 		txtpnNome.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnNome.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnNome.setBackground(SystemColor.control);
 		txtpnNome.setText("Nome");
 		txtpnNome.setBounds(37, 94, 54, 20);
 		contentPane.add(txtpnNome);
@@ -89,7 +89,7 @@ public class Usuarios extends JFrame {
 		JTextPane txtpnSenha = new JTextPane();
 		txtpnSenha.setEditable(false);
 		txtpnSenha.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnSenha.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnSenha.setBackground(SystemColor.control);
 		txtpnSenha.setText("Senha");
 		txtpnSenha.setBounds(37, 137, 54, 20);
 		contentPane.add(txtpnSenha);

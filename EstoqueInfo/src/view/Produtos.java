@@ -45,7 +45,7 @@ public class Produtos extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
-		contentPane.setBackground(SystemColor.inactiveCaptionBorder);
+		contentPane.setBackground(SystemColor.control);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -53,7 +53,7 @@ public class Produtos extends JFrame {
 		JTextPane txtpnCdigo = new JTextPane();
 		txtpnCdigo.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
 		txtpnCdigo.setEditable(false);
-		txtpnCdigo.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnCdigo.setBackground(SystemColor.control);
 		txtpnCdigo.setText("C\u00F3digo");
 		txtpnCdigo.setBounds(34, 35, 49, 20);
 		contentPane.add(txtpnCdigo);
@@ -61,7 +61,7 @@ public class Produtos extends JFrame {
 		JTextPane txtpnNome = new JTextPane();
 		txtpnNome.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
 		txtpnNome.setEditable(false);
-		txtpnNome.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnNome.setBackground(SystemColor.control);
 		txtpnNome.setText("Nome");
 		txtpnNome.setBounds(34, 80, 40, 20);
 		contentPane.add(txtpnNome);
@@ -69,7 +69,7 @@ public class Produtos extends JFrame {
 		JTextPane txtpnDataDoCadastro = new JTextPane();
 		txtpnDataDoCadastro.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
 		txtpnDataDoCadastro.setEditable(false);
-		txtpnDataDoCadastro.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnDataDoCadastro.setBackground(SystemColor.control);
 		txtpnDataDoCadastro.setText("Data do Cadastro");
 		txtpnDataDoCadastro.setBounds(34, 136, 131, 20);
 		contentPane.add(txtpnDataDoCadastro);

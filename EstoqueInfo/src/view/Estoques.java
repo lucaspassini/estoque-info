@@ -46,7 +46,7 @@ public class Estoques extends JFrame {
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setFont(new Font("Fira Code", contentPane.getFont().getStyle(), contentPane.getFont().getSize()));
-		contentPane.setBackground(SystemColor.inactiveCaptionBorder);
+		contentPane.setBackground(SystemColor.control);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -54,7 +54,7 @@ public class Estoques extends JFrame {
 		JTextPane txtpnCdigo = new JTextPane();
 		txtpnCdigo.setEditable(false);
 		txtpnCdigo.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnCdigo.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnCdigo.setBackground(SystemColor.control);
 		txtpnCdigo.setText("C\u00F3digo");
 		txtpnCdigo.setBounds(28, 41, 53, 20);
 		contentPane.add(txtpnCdigo);
@@ -62,7 +62,7 @@ public class Estoques extends JFrame {
 		JTextPane txtpnSaldo = new JTextPane();
 		txtpnSaldo.setEditable(false);
 		txtpnSaldo.setFont(new Font("Fira Code", txtpnCdigo.getFont().getStyle(), txtpnCdigo.getFont().getSize()));
-		txtpnSaldo.setBackground(SystemColor.inactiveCaptionBorder);
+		txtpnSaldo.setBackground(SystemColor.control);
 		txtpnSaldo.setText("Saldo");
 		txtpnSaldo.setBounds(28, 83, 53, 20);
 		contentPane.add(txtpnSaldo);
