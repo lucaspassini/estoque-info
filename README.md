@@ -14,7 +14,7 @@
 
 <p>
 <img src="https://user-images.githubusercontent.com/47937044/98877997-99c1b000-2460-11eb-846f-ffca468ab6fa.png" alt="Tela de Login" width="440"/>
-<img src="https://user-images.githubusercontent.com/47937044/98879676-dd1e1d80-2464-11eb-8c37-782e093fc2b3.png" alt="Tela de Menu" width="326"/>
+<img src="https://user-images.githubusercontent.com/47937044/98879676-dd1e1d80-2464-11eb-8c37-782e093fc2b3.png" alt="Tela de Menu" width="324"/>
  <p/>
 <br></br>
  
