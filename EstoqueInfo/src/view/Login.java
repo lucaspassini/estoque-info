@@ -30,8 +30,8 @@ public class Login extends JFrame {
 	private JPanel contentPane;
 	private JTextField txtUser;
 	private JPasswordField pwdPassword;
-	private JPanel panel_2;
-	private JLabel lblIconGear;
+	private JPanel panelLogin;
+	private JLabel lblIconEstoqueInfo;
 	private JLabel lblIconUsername;
 	private JLabel lblIconPassword;
 	private JLabel lblIconLogin;
@@ -72,12 +72,12 @@ public class Login extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JPanel panel = new JPanel();
-		panel.setBackground(Color.WHITE);
-		panel.setBorder(new CompoundBorder());
-		panel.setBounds(142, 220, 225, 30);
-		contentPane.add(panel);
-		panel.setLayout(null);
+		JPanel panelUsuario = new JPanel();
+		panelUsuario.setBackground(Color.WHITE);
+		panelUsuario.setBorder(new CompoundBorder());
+		panelUsuario.setBounds(142, 207, 225, 35);
+		contentPane.add(panelUsuario);
+		panelUsuario.setLayout(null);
 		
 		txtUser = new JTextField();
 		txtUser.addFocusListener(new FocusAdapter() {
@@ -98,23 +98,23 @@ public class Login extends JFrame {
 			}
 		});
 		txtUser.setBorder(null);
-		txtUser.setBounds(10, 5, 160, 21);
+		txtUser.setBounds(45, 5, 160, 25);
 		txtUser.setFont(new Font("Fira Code", txtUser.getFont().getStyle(), txtUser.getFont().getSize()));
 		txtUser.setText("Usu\u00E1rio");
-		panel.add(txtUser);
+		panelUsuario.add(txtUser);
 		txtUser.setColumns(10);
 		
 		lblIconUsername = new JLabel("New label");
+		lblIconUsername.setBounds(6, 5, 30, 27);
+		panelUsuario.add(lblIconUsername);
 		lblIconUsername.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-person-30.png")));
-		lblIconUsername.setBounds(190, 2, 30, 27);
-		panel.add(lblIconUsername);
 		
-		JPanel panel_1 = new JPanel();
-		panel_1.setBackground(Color.WHITE);
-		panel_1.setBorder(new CompoundBorder());
-		panel_1.setBounds(142, 263, 225, 30);
-		contentPane.add(panel_1);
-		panel_1.setLayout(null);
+		JPanel panelSenha = new JPanel();
+		panelSenha.setBackground(Color.WHITE);
+		panelSenha.setBorder(new CompoundBorder());
+		panelSenha.setBounds(142, 250, 225, 35);
+		contentPane.add(panelSenha);
+		panelSenha.setLayout(null);
 		
 		pwdPassword = new JPasswordField();
 		pwdPassword.addFocusListener(new FocusAdapter() {
@@ -140,16 +140,16 @@ public class Login extends JFrame {
 		pwdPassword.setEchoChar((char)0);
 		pwdPassword.setText("Senha\r\n");
 		pwdPassword.setFont(new Font("Fira Code", pwdPassword.getFont().getStyle(), pwdPassword.getFont().getSize()));
-		pwdPassword.setBounds(10, 5, 160, 21);
-		panel_1.add(pwdPassword);
+		pwdPassword.setBounds(45, 5, 160, 25);
+		panelSenha.add(pwdPassword);
 		
 		lblIconPassword = new JLabel("New label");
+		lblIconPassword.setBounds(6, 5, 30, 27);
+		panelSenha.add(lblIconPassword);
 		lblIconPassword.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-password-30.png")));
-		lblIconPassword.setBounds(190, 2, 30, 27);
-		panel_1.add(lblIconPassword);
 		
-		panel_2 = new JPanel();
-		panel_2.addMouseListener(new MouseAdapter() {
+		panelLogin = new JPanel();
+		panelLogin.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				
@@ -165,27 +165,27 @@ public class Login extends JFrame {
 				}
 			}
 		);
-		panel_2.setBorder(new CompoundBorder());
-		panel_2.setBackground(Color.GRAY);
-		panel_2.setBounds(142, 324, 225, 43);
-		contentPane.add(panel_2);
-		panel_2.setLayout(null);
+		panelLogin.setBorder(new CompoundBorder());
+		panelLogin.setBackground(Color.GRAY);
+		panelLogin.setBounds(142, 324, 225, 43);
+		contentPane.add(panelLogin);
+		panelLogin.setLayout(null);
 		
 		JLabel lblLogin = new JLabel("LOGIN");
 		lblLogin.setForeground(Color.WHITE);
 		lblLogin.setFont(new Font("Fira Code SemiBold", lblLogin.getFont().getStyle(), 13));
-		lblLogin.setBounds(99, 13, 55, 21);
-		panel_2.add(lblLogin);
+		lblLogin.setBounds(96, 13, 55, 21);
+		panelLogin.add(lblLogin);
 		
 		lblIconLogin = new JLabel("");
 		lblIconLogin.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-login-30.png")));
-		lblIconLogin.setBounds(45, 10, 35, 24);
-		panel_2.add(lblIconLogin);
+		lblIconLogin.setBounds(10, 10, 35, 24);
+		panelLogin.add(lblIconLogin);
 		
-		lblIconGear = new JLabel("");
-		lblIconGear.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-empty-box-90.png")));
-		lblIconGear.setBounds(216, 82, 95, 78);
-		contentPane.add(lblIconGear);
+		lblIconEstoqueInfo = new JLabel("");
+		lblIconEstoqueInfo.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-empty-box-90.png")));
+		lblIconEstoqueInfo.setBounds(216, 82, 95, 78);
+		contentPane.add(lblIconEstoqueInfo);
 		
 		lblIconX = new JLabel("X");
 		lblIconX.setFont(new Font("Fira Code SemiBold", lblIconX.getFont().getStyle(), 13));
@@ -209,18 +209,18 @@ public class Login extends JFrame {
 		});
 		lblIconX.setForeground(Color.BLACK);
 		lblIconX.setIcon(null);
-		lblIconX.setBounds(477, 0, 30, 43);
+		lblIconX.setBounds(490, -5, 30, 43);
 		contentPane.add(lblIconX);
 		
 		lblIconSignup = new JLabel("");
 		lblIconSignup.setIcon(new ImageIcon(Login.class.getResource("/icons/icons8-add-user-male-24.png")));
-		lblIconSignup.setBounds(430, 345, 30, 22);
+		lblIconSignup.setBounds(427, 330, 30, 31);
 		contentPane.add(lblIconSignup);
 		
 		lblLoginMessage = new JLabel("");
 		
 		lblLoginMessage.setFont(new Font("Fira Code Light", lblLoginMessage.getFont().getStyle(), 10));
-		lblLoginMessage.setBounds(122, 207, 215, 14);
+		lblLoginMessage.setBounds(142, 299, 225, 14);
 		contentPane.add(lblLoginMessage);
 	}
 }
