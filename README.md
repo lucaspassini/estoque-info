@@ -13,8 +13,8 @@
 ## 🖼 Telas
 
 <p>
-<img src="https://user-images.githubusercontent.com/47937044/98865589-62e09f80-244a-11eb-8b2d-f40b965f0e3e.png" alt="Tela de Login" width="440"/>
-<img src="https://user-images.githubusercontent.com/47937044/98865763-a89d6800-244a-11eb-96eb-002a5989411f.png" alt="Tela de Menu" width="326"/>
+<img src="https://user-images.githubusercontent.com/47937044/98877997-99c1b000-2460-11eb-846f-ffca468ab6fa.png" alt="Tela de Login" width="440"/>
+<img src="https://user-images.githubusercontent.com/47937044/98877942-75fe6a00-2460-11eb-892e-dec84135db4f.png" alt="Tela de Menu" width="326"/>
  <p/>
 <br></br>
  
