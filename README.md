@@ -21,7 +21,40 @@
 
 
 ## :pushpin: Sobre o projeto
-Sistema Java responsável pelo controle de estoque dos produtos de uma loja de Informática.
+Este projeto é um Sistema Java responsável pelo controle de estoque dos produtos de uma loja de Informática, desenvolvido por um estudante da Universidade São Francisco, campus Itatiba.
+
+Estudante: Lucas Cristiano Passini
+
+Professor: José Matias Lemes Filho
+
+
+## :construction_worker: Instalação
+Este aplicativo foi desenvolvido em Java. Para instalar, é necessário ter uma IDE instalado que suporte a linguagem para poder ser executado o projeto.
+
+Assim que sua máquina estiver configurada, clone este projeto:
+```
+https://github.com/lucaspassini/EstoqueInfo.git
+```
+Crie um Banco de Dados MySQL:
+```
+CREATE DATABASE estoqueinfo;
+```
+Crie as tabelas com os seguintes valores:
+```
+create table Clientes (idCodigo integer not null primary key auto_increment, cNome varchar(30) not null unique, cCNPJ integer, nValor numeric default 0.0, dDataCad date);
+
+create table Fornecedores (idCodigo integer not null primary key auto_increment, cNome varchar(30) not null unique, cCNPJ integer, nValor numeric default 0.0, dDataCad date);
+
+create table Compras (idCompra integer not null primary key auto_increment, nCodProd integer not null unique, nQuant numeric default 0.0, nTotal numeric default 0.0, dDataCompra date);
+
+create table Estoque (idEst integer not null primary key auto_increment, nCodProd integer not null,  cDescProd varchar(30) not null unique, nSaldo numeric default 0.0);
+
+create table Usuario (idUsuario integer not null primary key auto_increment , cNome varchar(30) not null unique, cSenha varchar(10));
+
+create table Produtos (idProduto integer not null primary key auto_increment, cNomeProd varchar(30) not null unique, dDataCad date);
+
+create table Vendas (idCodigo integer not null primary key auto_increment, nCodProd integer, cDescProd varchar(30), nQuant numeric default 0.0, nTotal numeric default 0.0, dDataVenda date);
+```
 
 
 ## 🚀 Tecnologias
