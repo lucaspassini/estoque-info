@@ -29,7 +29,7 @@ Professor: José Matias Lemes Filho
 
 
 ## :construction_worker: Instalação
-Este aplicativo foi desenvolvido em Java. Para instalar, é necessário ter um IDE em sua máquina que suporte a linguagem para poder ser executado o projeto.
+Este Sistema foi desenvolvido em Java. Para instalar, é necessário ter um IDE em sua máquina que suporte a linguagem para poder ser executado o projeto.
 
 Assim que sua máquina estiver configurada, clone este projeto:
 ```
