@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="EstoqueInfo/src/icons/icons8-empty-box-60.png"/>
-</p>
-
-
-
 
 <h3 align="center">EstoqueInfo <br/> <br/>
  <img src="https://img.shields.io/github/license/lucaspassini/EstoqueInfo?style=flat&logo">
