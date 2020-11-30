@@ -45,7 +45,7 @@ create table Clientes (idCodigo integer not null primary key auto_increment, cNo
 
 create table Fornecedores (idCodigo integer not null primary key auto_increment, cNome varchar(30) not null unique, cCNPJ integer, nValor numeric default 0.0, dDataCad date);
 
-create table Compras (idCompra integer not null primary key auto_increment, nCodProd integer not null unique, nQuant numeric default 0.0, nTotal numeric default 0.0, dDataCompra date);
+create table Compras (idCompra integer not null primary key auto_increment, nCodProd integer not null unique, cDescProd varchar(30), nQuant numeric default 0.0, nTotal numeric default 0.0, dDataCompra date);
 
 create table Estoque (idEst integer not null primary key auto_increment, nCodProd integer not null,  cDescProd varchar(30) not null unique, nSaldo numeric default 0.0);
 
