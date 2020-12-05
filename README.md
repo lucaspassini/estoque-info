@@ -15,7 +15,7 @@
 
 
 ## :pushpin: Sobre o projeto
-Este projeto é um Sistema Java responsável pelo controle de estoque dos produtos de uma loja de Informática, desenvolvido por um estudante da Universidade São Francisco, Campus Itatiba.
+Este projeto é um Sistema Java responsável pelo controle e cadastro de estoque, produtos, clientes e fornecedores. Desenvolvido por um estudante da Universidade São Francisco, Campus Itatiba.
 
 Estudante: Lucas Cristiano Passini
 
