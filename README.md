@@ -22,7 +22,7 @@ Estudante: Lucas Cristiano Passini
 Professor: José Matias Lemes Filho
 
 
-## :construction_worker: Instalação
+## :computer: Instalação
 Este Sistema foi desenvolvido em Java. Para instalar, é necessário ter um IDE em sua máquina que suporte a linguagem para poder ser executado o projeto.
 
 Assim que sua máquina estiver configurada, clone este projeto:
