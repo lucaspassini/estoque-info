@@ -2,9 +2,9 @@ package model;
 
 
 public class Usuario {
-   int codUsuario;
-   char nomeUsuario;
-   String senhaUsuario;
+   private int idUsuario;
+   private String cNome;
+   private String cSenha;
    
    
    public void cadastraCliente() {
@@ -28,25 +28,25 @@ public class Usuario {
    }
    
    
-   public int getcodUsuario() {
-		  return codUsuario;
+   public int getidUsuario() {
+		  return idUsuario;
 	  }
-	  public void setcodUsuario(int codUsuario) {
-		  this.codUsuario = codUsuario;
-	  }
-	  
-	  
-	  public char getnomeUsuario() {
-		  return nomeUsuario;
-	  }
-	  public void setnomeUsuario(char nomeUsuario) {
-		  this.nomeUsuario = nomeUsuario;
+	  public void setidUsuario(int idUsuario) {
+		  this.idUsuario = idUsuario;
 	  }
 	  
-	  public String getsenhaUsuario() {
-		  return senhaUsuario;
+	  
+	  public String getcNome() {
+		  return cNome;
 	  }
-	  public void setsenhaUsuario(String senhaUsuario) {
-		  this.senhaUsuario = senhaUsuario;
+	  public void setcNome(String cNome) {
+		  this.cNome = cNome;
+	  }
+	  
+	  public String getcSenha() {
+		  return cSenha;
+	  }
+	  public void setcSenha(String cSenha) {
+		  this.cSenha = cSenha;
 	  }
 }
