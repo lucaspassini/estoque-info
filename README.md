@@ -30,11 +30,11 @@ Assim que sua máquina estiver configurada, clone este projeto:
 https://github.com/lucaspassini/EstoqueInfo.git
 ```
 Crie um Banco de Dados MySQL:
-```
+``` SQL
 CREATE DATABASE estoqueinfo;
 ```
 Crie as tabelas com os seguintes valores:
-```
+``` SQL
 create table Clientes (idCodigo integer not null primary key auto_increment, cNome varchar(30) not null unique, cCNPJ integer, nValor numeric default 0.0, dDataCad date);
 
 create table Fornecedores (idCodigo integer not null primary key auto_increment, cNome varchar(30) not null unique, cCNPJ integer, nValor numeric default 0.0, dDataCad date);
