@@ -16,7 +16,7 @@
  
 
 
-## :pushpin: Sobre o projeto
+## :pushpin: Sobre 
 Este projeto é um Sistema Java responsável pelo controle e cadastro de estoque, produtos, clientes e fornecedores. Desenvolvido por um estudante da Universidade São Francisco, Campus Itatiba.
 
 Estudante: Lucas Cristiano Passini
@@ -72,6 +72,6 @@ Esse projeto utiliza as seguintes ferramentas:
 
 
 
-## 📝 License
+## 📝 Licença
 
 Distributed under the MIT License. See `LICENSE` for more information.
