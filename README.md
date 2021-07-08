@@ -1,8 +1,10 @@
-
-<h3 align="center">EstoqueInfo <br/> <br/>
+<p align="center">
+<img src = https://user-images.githubusercontent.com/47937044/124863216-1a539480-df8d-11eb-82d8-895931fef6e3.png />
+ <p/>
+ 
+ <h3 align="center">
  <img src="https://img.shields.io/github/license/lucaspassini/EstoqueInfo?style=flat&logo">
 </h3>
-
 
 ## 🖼 Telas
 
