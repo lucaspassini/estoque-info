@@ -1,41 +1,32 @@
-<p align="center">
-<img src = https://user-images.githubusercontent.com/47937044/124863216-1a539480-df8d-11eb-82d8-895931fef6e3.png />
- <p/>
- 
- <h3 align="center">
- <img src="https://img.shields.io/github/license/lucaspassini/EstoqueInfo?style=flat&logo">
-</h3>
+## `Estoque Info`
 
-## 🖼 Telas
-
-<p align="center">
+<p align="left">
 <img src="https://user-images.githubusercontent.com/47937044/98877997-99c1b000-2460-11eb-846f-ffca468ab6fa.png" alt="Tela de Login" width="440"/>
 <img src="https://user-images.githubusercontent.com/47937044/98879676-dd1e1d80-2464-11eb-8c37-782e093fc2b3.png" alt="Tela de Menu" width="324"/>
  <p/>
-<br></br>
- 
+
+## 📕 About
+This project is a Java stock management system, it is used for registration of stock, products, customers and suppliers. Developed by a student from Universidade São Francisco, Campus Itatiba.
+
+Student: Lucas Cristiano Passini
+
+Teacher: José Matias Lemes Filho
 
 
-## :pushpin: Sobre 
-Este projeto é um Sistema Java responsável pelo controle e cadastro de estoque, produtos, clientes e fornecedores. Desenvolvido por um estudante da Universidade São Francisco, Campus Itatiba.
+## 🧑🏻‍💻 Installation
 
-Estudante: Lucas Cristiano Passini
+To install, you must have an IDE on your machine that supports the language in order to run the project.
 
-Professor: José Matias Lemes Filho
+Once your machine is set up, clone this project:
 
-
-## :computer: Instalação
-Este Sistema foi desenvolvido em Java. Para instalar, é necessário ter um IDE em sua máquina que suporte a linguagem para poder ser executado o projeto.
-
-Assim que sua máquina estiver configurada, clone este projeto:
 ```
 https://github.com/lucaspassini/EstoqueInfo.git
 ```
-Crie um Banco de Dados MySQL:
+Create a MySQL database:
 ``` SQL
 CREATE DATABASE estoqueinfo;
 ```
-Crie as tabelas com os seguintes valores:
+Create tables with the following values:
 ``` SQL
 create table Clientes (idCodigo integer not null primary key auto_increment, cNome varchar(30) not null unique, cCNPJ integer, nValor numeric default 0.0, dDataCad date);
 
@@ -53,25 +44,24 @@ create table Vendas (idCodigo integer not null primary key auto_increment, nCodP
 ```
 
 
-## 🚀 Tecnologias
+## 💻 Technologies
 
-Esse projeto utiliza as seguintes ferramentas:
+This project was developed with:
 
 - [MySQL](https://www.mysql.com/)
 - [Java](https://www.java.com/en/)
 - [Java Swing](https://www.eclipse.org/windowbuilder/)
 
 
-## 🔗 Links 
+## 🔗 Docs 
 
-- [Diagrama UML](https://app.lucidchart.com/invitations/accept/7e6ed4c8-8616-476c-89ef-e3aa2263c2e2)
-- [Diagrama Descritivo](https://app.lucidchart.com/invitations/accept/f05a816f-ced4-4eb2-8c4c-4093bf8d198b)
-- [MySQL Docs](https://dev.mysql.com/doc/)
-- [Java Docs](https://docs.oracle.com/en/java/javase/14/)
-- [Java Swing Docs](https://www.eclipse.org/documentation/)
+- [UML Diagram](https://app.lucidchart.com/invitations/accept/7e6ed4c8-8616-476c-89ef-e3aa2263c2e2)
+- [Descriptive Diagram](https://app.lucidchart.com/invitations/accept/f05a816f-ced4-4eb2-8c4c-4093bf8d198b)
+- [Java](https://docs.oracle.com/en/java/javase/14/)
+- [Java Swing](https://www.eclipse.org/documentation/)
+- [MySQL](https://dev.mysql.com/doc/)
 
 
-
-## 📝 Licença
+## 📝 Licence
 
 Distributed under the MIT License. See `LICENSE` for more information.
