@@ -20,7 +20,7 @@ To install, you must have an IDE on your machine that supports the language in o
 Once your machine is set up, clone this project:
 
 ```
-https://github.com/lucaspassini/EstoqueInfo.git
+https://github.com/lucaspassini/estoque-info.git
 ```
 Create a MySQL database:
 ``` SQL
