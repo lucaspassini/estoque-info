@@ -1,4 +1,10 @@
-## `Estoque Info`
+<img src="src/icons/icons8-empty-box-60.png" width="48"/>
+  
+## Estoque Info
+
+[![Author](https://img.shields.io/badge/author-lucaspassini-191F2B?style=flat-square)](https://github.com/lucaspassini)
+[![Stars](https://img.shields.io/github/stars/lucaspassini/estoque-info?color=191F2B&style=flat-square)](https://github.com/lucaspassini/estoque-info/stargazers)
+[![Forks](https://img.shields.io/github/forks/lucaspassini/estoque-info?color=%23191F2B&style=flat-square)](https://github.com/lucaspassini/estoque-info/network/members)
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/47937044/98877997-99c1b000-2460-11eb-846f-ffca468ab6fa.png" alt="Tela de Login" width="440"/>
