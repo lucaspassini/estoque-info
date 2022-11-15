@@ -1,25 +1,22 @@
 <img src="src/icons/icons8-empty-box-60.png" width="48"/>
   
-## Estoque Info
-
-[![Author](https://img.shields.io/badge/author-lucaspassini-191F2B?style=flat-square)](https://github.com/lucaspassini)
-[![Stars](https://img.shields.io/github/stars/lucaspassini/estoque-info?color=191F2B&style=flat-square)](https://github.com/lucaspassini/estoque-info/stargazers)
-[![Forks](https://img.shields.io/github/forks/lucaspassini/estoque-info?color=%23191F2B&style=flat-square)](https://github.com/lucaspassini/estoque-info/network/members)
+# estoque info [![Author](https://img.shields.io/badge/author-lucaspassini-lightgrey)](https://github.com/lucaspassini) [![Stars](https://img.shields.io/github/stars/lucaspassini/estoque-info?color=lightgrey)](https://github.com/lucaspassini/estoque-info/stargazers) [![Forks](https://img.shields.io/github/forks/lucaspassini/estoque-info?color=lightgrey)](https://github.com/lucaspassini/estoque-info/network/members)
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/47937044/98877997-99c1b000-2460-11eb-846f-ffca468ab6fa.png" alt="Tela de Login" width="440"/>
 <img src="https://user-images.githubusercontent.com/47937044/98879676-dd1e1d80-2464-11eb-8c37-782e093fc2b3.png" alt="Tela de Menu" width="324"/>
  <p/>
 
-## 📕 About
-This project is a Java stock management system, it is used for registration of stock, products, customers and suppliers. Developed by a student from Universidade São Francisco, Campus Itatiba.
+## About
+
+This project is a Java Front-end for a stock management system. The goal of this project is to create a usable interface for registration of stocks, products, customers and suppliers. Developed by a student from Universidade São Francisco, Campus Itatiba.
 
 Student: Lucas Cristiano Passini
 
 Teacher: José Matias Lemes Filho
 
 
-## 🧑🏻‍💻 Installation
+## Install
 
 To install, you must have an IDE on your machine that supports the language in order to run the project.
 
@@ -50,7 +47,7 @@ create table Vendas (idCodigo integer not null primary key auto_increment, nCodP
 ```
 
 
-## 💻 Technologies
+## Technologies
 
 This project was developed with:
 
@@ -59,7 +56,7 @@ This project was developed with:
 - [Java Swing](https://www.eclipse.org/windowbuilder/)
 
 
-## 🔗 Docs 
+## Docs 
 
 - [UML Diagram](https://app.lucidchart.com/invitations/accept/7e6ed4c8-8616-476c-89ef-e3aa2263c2e2)
 - [Descriptive Diagram](https://app.lucidchart.com/invitations/accept/f05a816f-ced4-4eb2-8c4c-4093bf8d198b)
@@ -68,6 +65,6 @@ This project was developed with:
 - [MySQL](https://dev.mysql.com/doc/)
 
 
-## 📝 Licence
+## Licence
 
 Distributed under the MIT License. See `LICENSE` for more information.
